@@ -1,0 +1,33 @@
+{
+  "name": "OnixVideoCall",
+  "version": "0.0.1",
+  "summary": "OnixVideoCall framework",
+  "description": "A service that will help you easily connect video calls using Twilio",
+  "homepage": "https://github.com/OnixKChukhas/VideoCall",
+  "license": "MIT",
+  "authors": {
+    "Kostiantyn Chukhas": "kostiantyn.chukhas@onix-systems.com"
+  },
+  "social_media_url": "https://www.instagram.com/k.chukhas",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/OnixKChukhas/VideoCall.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Defines/**/*.{swift}",
+  "dependencies": {
+    "TwilioVideo": [
+      "~> 5.3"
+    ],
+    "Alamofire": [
+
+    ],
+    "FirebaseCore": [
+
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
