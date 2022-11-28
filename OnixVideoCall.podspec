@@ -2,9 +2,9 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OnixVideoCall"
-  spec.version      = "1.0.0"
+  spec.version      = "0.0.1"
   spec.summary      = "OnixVideoCall framework"
-  spec.description  = "HELP FOR TWILLIO"
+  spec.description  = "A service that will help you easily connect video calls using Twilio"
 
   spec.homepage     = "https://github.com/OnixKChukhas/VideoCall"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
    spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "http://EXAMPLE/OnixVideoCall.git", :tag => "spec.version.to_s" }
+  spec.source       = { :git => "https://github.com/OnixKChukhas/VideoCall.git", :tag => spec.version.to_s }
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
