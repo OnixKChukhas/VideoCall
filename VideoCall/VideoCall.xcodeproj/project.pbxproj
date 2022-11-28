@@ -11,6 +11,7 @@
 		B89A08332934ED4100F10ABB /* VideoCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89A08282934ED4000F10ABB /* VideoCall.framework */; };
 		B89A08382934ED4100F10ABB /* VideoCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A08372934ED4100F10ABB /* VideoCallTests.swift */; };
 		B89A08392934ED4100F10ABB /* VideoCall.h in Headers */ = {isa = PBXBuildFile; fileRef = B89A082B2934ED4000F10ABB /* VideoCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89A08432934F96E00F10ABB /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A08422934F96E00F10ABB /* Defines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		B89A082C2934ED4000F10ABB /* VideoCall.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VideoCall.docc; sourceTree = "<group>"; };
 		B89A08322934ED4100F10ABB /* VideoCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89A08372934ED4100F10ABB /* VideoCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallTests.swift; sourceTree = "<group>"; };
+		B89A08422934F96E00F10ABB /* Defines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		B89A082A2934ED4000F10ABB /* VideoCall */ = {
 			isa = PBXGroup;
 			children = (
+				B89A08422934F96E00F10ABB /* Defines.swift */,
 				B89A082B2934ED4000F10ABB /* VideoCall.h */,
 				B89A082C2934ED4000F10ABB /* VideoCall.docc */,
 			);
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89A08432934F96E00F10ABB /* Defines.swift in Sources */,
 				B89A082D2934ED4000F10ABB /* VideoCall.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 		B89A08402934ED4100F10ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2YDYQPDXUA;
@@ -412,6 +417,7 @@
 		B89A08412934ED4100F10ABB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2YDYQPDXUA;
